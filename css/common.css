@@ -22,3 +22,24 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.list{
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+}
+
+.list__img{
+  display: block;
+  width: 100vh;
+  gap: 15px;
+
+}
+
+.list__item{
+ margin-bottom: 20px;
+  
+}
+.list__item:first-child{
+  margin-bottom: 0;
+}
